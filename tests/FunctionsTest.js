@@ -1,7 +1,4 @@
-//Trial 1:
-//We've got some basic info about Karen's home
-//Debug the type of data provided
-//Return the types concatenated in a single variable
+
 describe("Concatenate the types of data and return it - moreAboutHome", function() {
   it("Defines moreAboutHome", function() {
     expect(typeof moreAboutHome).toBe("function");
@@ -44,9 +41,7 @@ describe("Concatenate the types of data and return it - moreAboutHome", function
   });
 });
 
-//Trial 2:
-//Check if the data given is of the right type
-//parents = String, noOfSiblings = Number, isNuclearFamily = Boolean
+
 describe("Check if the arguments passed corresponds to the given data types  - moreAboutKaren", function() {
   it("Defines moreAboutKaren", function() {
     expect(typeof moreAboutKaren).toBe("function");
@@ -89,10 +84,7 @@ describe("Check if the arguments passed corresponds to the given data types  - m
   });
 });
 
-//Trial 3:
-//Lily is suspicious about Karen's new friend
-//Karen tells her friend's age and even writes it down
-//Check which one those is not a number (NaN) and return that value
+
 describe("Check which of the argument passed is of type NaN  - doesFriendExist", function() {
   it("Defines doesFriendExist", function() {
     expect(typeof doesFriendExist).toBe("function");
@@ -131,12 +123,7 @@ describe("Check which of the argument passed is of type NaN  - doesFriendExist",
   });
 });
 
-// /Trial 4:
-//Lily gave Karen x sweets
-//Karen ate y sweets herself
-//On her way to the river, she ate another z sweets every n meters travelled
-//Her friend divided the remaining sweets into 2 parts for each
-//How many sweets did her friend get to eat?
+
 describe("Calculate the number of sweets Karen's friend eats  - sweetTooth", function() {
   it("Defines sweetTooth", function() {
     expect(typeof sweetTooth).toBe("function");
@@ -175,9 +162,7 @@ describe("Calculate the number of sweets Karen's friend eats  - sweetTooth", fun
   });
 });
 
-//Trial 5:
-//As Lily moves closer, it gets colder. She checks the temperature on her mobile
-//It only shows in farenheit. Convert the data to celsius and return it.
+
 describe("Convert the temperature from farenheit to celsius - convertToCelsius", function() {
   it("Defines convertToCelsius", function() {
     expect(typeof convertToCelsius).toBe("function");
@@ -224,13 +209,7 @@ describe("Convert the temperature from farenheit to celsius - convertToCelsius",
   });
 });
 
-//Trial 6:
-//Lily can now do multiple things to deal with this
-//1. Take her daughter to a doctor
-//2. Talk to her husband about it
-//3. Counsel her daughter herself
-//4. Lock her daughter in her room
-//Given a value, return which of these above actions Lily would take
+
 describe("Decide what actions Karen will take next - aDifficultChoice", function() {
   it("Defines aDifficultChoice", function() {
     expect(typeof aDifficultChoice).toBe("function");
